@@ -1,27 +1,71 @@
-# CrudAngular
+<h1 align="center">Curso Angular + Spring</h1>
+<br />
+<p align="center">
+  <img alt="Preview" src="./.github/img/screenshot1.png" width="900px">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
 
-## Development server
+  <img src="https://img.shields.io/static/v1?label=version&message=beta&color=FD0000&labelColor=000000" alt="Curso Angular + Spring" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/fsclaro/curso-angular-spring">
 
-## Code scaffolding
+  <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/fsclaro/curso-angular-spring/total">
+</p>
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🧪 Tecnologias utilizadas
 
-## Build
+Para este projeto, foram utilizadas as seguintes tecnologias e recursos:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular CLI versão 12.2.3](https://github.com/angular/angular-cli)
+- [Typescript](https://www.typescriptlang.org/)
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
-## Running unit tests
+## 🚀 Como executar
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Passo 1: Faça a clonagem do projeto com o comando abaixo:
 
-## Running end-to-end tests
+```bash
+$ git clone https://github.com/fsclaro/curso-angular-spring
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Passo 2: Entre na pasta do projeto:
 
-## Further help
+```bash
+$ cd curso-angular-spring
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Passo 3: Inicie o projeto conforme os passos descritos abaixo:
+
+```bash
+# Instalar as dependências
+$ yarn
+
+# Iniciar o projeto
+$ yarn start
+```
+
+O app estará disponível no seu browser pelo endereço http://localhost:4200.
+
+## ⌨️ Principais Comandos
+
+```bash
+$ yarn build
+```
+Para gerar a aplicação para ser enviada para produção
+
+```bash
+$ yarn test
+```
+Executa o Jest nos testes existentes na pasta src do projeto.
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ❤️ by NandoSalles.
